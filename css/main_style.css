@@ -7,12 +7,14 @@ body {
 .code-hero {
   background-image: url("../img/code_banner.jpg");
   background-size: cover;
-  height: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 30rem;
   width: 100%; }
   .code-hero .hero_title {
     text-align: center;
-    padding-top: 14rem;
-    color: #ffffff; }
+    padding-top: 10rem;
+    color: #ffffff;
+    font-size: 5rem; }
 
 .small_top {
   margin-top: 3rem; }

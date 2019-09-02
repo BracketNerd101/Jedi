@@ -7,6 +7,7 @@
 // $teal: rgba(36, 123, 160, 1);
 // $sky: rgba(27, 152, 224, 1);
 // $soft_white: rgba(232, 241, 242, 1);
+// font-family: 'Josefin Sans', sans-serif;
 
 
 body {
@@ -26,14 +27,16 @@ body {
 
     background-image: url("../img/code_banner.jpg");
     background-size: cover;
-    height: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 30rem;
     width: 100%;
 
     .hero_title {
 
         text-align: center;
-        padding-top: 14rem;
+        padding-top: 10rem;
         color: #ffffff;
+        font-size: 5rem;
 
     }
 
