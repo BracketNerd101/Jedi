@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import"palette.css";
+@import"palette.scss";
 
 // $twilight: rgba(19, 41, 61, 1);
 // $ocean: rgba(0, 100, 148, 1);
@@ -21,6 +21,31 @@ body {
    }
 
 }
+.code_space_style {
+
+    width: inherit;
+}
+
+// .code_space_style {
+
+//     min-height: 5rem;
+// }
+
+// pre {
+//    background-color: #fafafa;
+//   border: 1px solid #ddd;
+//   color: $twilight;
+// //   page-break-inside: avoid;
+//   font-family: monospace;
+//   font-size: 15px;
+//   line-height: 1.6;
+//   margin-bottom: 1.6em;
+// //   max-width: 100%;
+  
+// //   padding: 1em 1.5em;
+// //   display: block;
+//   word-wrap: break-word;
+// }
 
 
 .code-hero {
@@ -42,6 +67,19 @@ body {
 
 }
 
+.card_snippet_title {
+
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 3rem;
+     color: $ocean;
+
+
+}
+
+.code_style_title {
+
+    color: $ocean;
+}
 
 .small_top {
 
@@ -56,4 +94,31 @@ body {
 .large_top {
 
     margin-top: 8rem;
+}
+
+.padding-left {
+
+    padding-left: 15rem;
+}
+
+.snippet_card_style {
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+.small_bottom {
+
+    margin-bottom: 3rem;
+}
+
+.medium_bottom {
+
+    margin-bottom: 5rem;
+}
+
+.large_bottom {
+
+    margin-bottom: 8rem;
 }

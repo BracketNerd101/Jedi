@@ -1,8 +1,28 @@
-@import url(palette.css);
+/* Coolors Exported Palette - coolors.co/13293d-006494-247ba0-1b98e0-e8f1f2 */
+/* HSL */
+/* RGB */
+.bg-twilight {
+  background-color: #13293d; }
+
+.bg-ocean {
+  background-color: #006494; }
+
+.bg-teal {
+  background-color: #247ba0; }
+
+.bg-sky {
+  background-color: #1b98e0; }
+
+.bg-soft_white {
+  background-color: #e8f1f2; }
+
 body {
   min-height: 1200px; }
   body .bg-ocean {
     background-color: #006494; }
+
+.code_space_style {
+  width: inherit; }
 
 .code-hero {
   background-image: url("../img/code_banner.jpg");
@@ -16,6 +36,14 @@ body {
     color: #ffffff;
     font-size: 5rem; }
 
+.card_snippet_title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  color: #006494; }
+
+.code_style_title {
+  color: #006494; }
+
 .small_top {
   margin-top: 3rem; }
 
@@ -24,5 +52,21 @@ body {
 
 .large_top {
   margin-top: 8rem; }
+
+.padding-left {
+  padding-left: 15rem; }
+
+.snippet_card_style {
+  margin-left: 3rem;
+  margin-right: 3rem; }
+
+.small_bottom {
+  margin-bottom: 3rem; }
+
+.medium_bottom {
+  margin-bottom: 5rem; }
+
+.large_bottom {
+  margin-bottom: 8rem; }
 
 /*# sourceMappingURL=main_style.css.map */
