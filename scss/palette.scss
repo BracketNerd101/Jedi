@@ -1,5 +1,6 @@
 /* Coolors Exported Palette - coolors.co/13293d-006494-247ba0-1b98e0-e8f1f2 */
 
+@charset "UTF-8";
 /* HSL */
 $color1: hsla(209%, 53%, 16%, 1);
 $color2: hsla(199%, 100%, 29%, 1);
@@ -13,3 +14,33 @@ $ocean: rgba(0, 100, 148, 1);
 $teal: rgba(36, 123, 160, 1);
 $sky: rgba(27, 152, 224, 1);
 $soft_white: rgba(232, 241, 242, 1);
+
+
+.bg-twilight {
+
+    background-color: rgba(19, 41, 61, 1);
+
+}
+
+.bg-ocean {
+
+    background-color: rgba(0, 100, 148, 1);
+
+}
+
+.bg-teal {
+
+    background-color: rgba(36, 123, 160, 1);
+
+}
+
+.bg-sky {
+
+    background-color: rgba(27, 152, 224, 1);
+
+}
+
+.bg-soft_white {
+
+     background-color: rgba(232, 241, 242, 1);
+}

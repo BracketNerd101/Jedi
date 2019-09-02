@@ -1,4 +1,4 @@
-@charset
+@charset "UTF-8";
 
 @import"palette.css";
 
@@ -11,7 +11,45 @@
 
 body {
 
-    background-color: $ocean;
     min-height: 1200px;
+
+    .bg-twilight {
+
+    background-color: rgba(19, 41, 61, 1);
+
+}
 }
 
+
+.code-hero {
+
+    background-image: url("../img/code_banner.jpg");
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+
+    .hero_title {
+
+        text-align: center;
+        padding-top: 14rem;
+        color: #ffffff;
+
+    }
+
+}
+
+
+.small_top {
+
+    margin-top: 3rem;
+}
+
+.medium_top {
+
+    margin-top: 5rem;
+}
+
+.large_top {
+
+    margin-top: 8rem;
+}
