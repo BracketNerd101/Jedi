@@ -1,13 +1,13 @@
 @import url(palette.css);
 body {
   min-height: 1200px; }
-  body .bg-twilight {
-    background-color: #13293d; }
+  body .bg-ocean {
+    background-color: #006494; }
 
 .code-hero {
   background-image: url("../img/code_banner.jpg");
   background-size: cover;
-  height: 35rem;
+  height: 3rem;
   width: 100%; }
   .code-hero .hero_title {
     text-align: center;
