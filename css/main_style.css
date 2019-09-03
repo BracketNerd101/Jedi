@@ -36,6 +36,9 @@ body {
     color: #ffffff;
     font-size: 5rem; }
 
+.jumbotron {
+  margin-bottom: auto; }
+
 .card_snippet_title {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3rem;
