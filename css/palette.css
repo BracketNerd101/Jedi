@@ -1,19 +1,28 @@
 /* Coolors Exported Palette - coolors.co/13293d-006494-247ba0-1b98e0-e8f1f2 */
 /* HSL */
 /* RGB */
+.bg-milk {
+  background-color: #f1f1f1;
+}
+
 .bg-twilight {
-  background-color: #13293d; }
+  background-color: #13293d;
+}
 
 .bg-ocean {
-  background-color: #006494; }
+  background-color: #006494;
+}
 
 .bg-teal {
-  background-color: #247ba0; }
+  background-color: #247ba0;
+}
 
 .bg-sky {
-  background-color: #1b98e0; }
+  background-color: #1b98e0;
+}
 
 .bg-soft_white {
-  background-color: #e8f1f2; }
+  background-color: #f7f7f8;
+}
 
 /*# sourceMappingURL=palette.css.map */

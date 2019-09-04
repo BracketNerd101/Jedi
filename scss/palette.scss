@@ -14,7 +14,13 @@ $ocean: rgba(0, 100, 148, 1);
 $teal: rgba(36, 123, 160, 1);
 $sky: rgba(27, 152, 224, 1);
 $soft_white: rgba(232, 241, 242, 1);
+$milk: #f7f7f8;
 
+
+.bg-milk {
+
+    background-color: #f1f1f1;
+}
 
 .bg-twilight {
 
@@ -42,5 +48,5 @@ $soft_white: rgba(232, 241, 242, 1);
 
 .bg-soft_white {
 
-     background-color: rgba(232, 241, 242, 1);
+     background-color: #f7f7f8
 }

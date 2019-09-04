@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,8EAA8E;AAG9E,SAAS;AAOT,SAAS;AAQT,YAAa;EAET,gBAAgB,EAAE,OAAmB;;AAIzC,SAAU;EAEN,gBAAgB,EAAE,OAAoB;;AAI1C,QAAS;EAEL,gBAAgB,EAAE,OAAqB;;AAI3C,OAAQ;EAEJ,gBAAgB,EAAE,OAAqB;;AAI3C,cAAe;EAEV,gBAAgB,EAAE,OAAsB",
-"sources": ["../scss/palette.scss"],
-"names": [],
-"file": "palette.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/palette.scss"],"names":[],"mappings":"AAAA;AAGA;AAOA;AASA;EAEI;;;AAGJ;EAEI;;;AAIJ;EAEI;;;AAIJ;EAEI;;;AAIJ;EAEI;;;AAIJ;EAEK","file":"palette.css"}
