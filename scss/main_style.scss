@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import"palette.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
 // $twilight: rgba(19, 41, 61, 1);
 // $ocean: rgba(0, 100, 148, 1);
@@ -26,6 +27,64 @@ body {
     width: inherit;
 }
 
+.css_hero {
+
+        height: 24rem;
+        width: 100%;
+
+        background:
+          -webkit-linear-gradient(315deg, hsla(190.45, 97.71%, 47%, 1) 0%, hsla(190.45, 97.71%, 47%, 0) 70%),
+          -webkit-linear-gradient(65deg, hsla(222.42, 97.62%, 45.05%, 1) 10%, hsla(222.42, 97.62%, 45.05%, 0) 80%),
+          -webkit-linear-gradient(135deg, hsla(289, 90.82%, 45.27%, 1) 15%, hsla(289, 90.82%, 45.27%, 0) 80%),
+          -webkit-linear-gradient(205deg, hsla(305.86, 99.46%, 40.82%, 1) 100%, hsla(305.86, 99.46%, 40.82%, 0) 70%);
+        background:
+          linear-gradient(135deg, hsla(190.45, 97.71%, 47%, 1) 0%, hsla(190.45, 97.71%, 47%, 0) 70%),
+          linear-gradient(25deg, hsla(222.42, 97.62%, 45.05%, 1) 10%, hsla(222.42, 97.62%, 45.05%, 0) 80%),
+          linear-gradient(315deg, hsla(289, 90.82%, 45.27%, 1) 15%, hsla(289, 90.82%, 45.27%, 0) 80%),
+          linear-gradient(245deg, hsla(305.86, 99.46%, 40.82%, 1) 100%, hsla(305.86, 99.46%, 40.82%, 0) 70%);
+
+          .hero_title {
+
+
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+            padding-top: 5rem;
+            color: #ffffff;
+            font-size: 3.4rem;
+    
+        }
+        
+}
+
+.java_hero {
+
+        height: 24rem;
+        width: 100%;
+    
+        background:
+          -webkit-linear-gradient(315deg, hsla(301.25, 90.16%, 49.69%, 1) 0%, hsla(301.25, 90.16%, 49.69%, 0) 70%),
+          -webkit-linear-gradient(65deg, hsla(248.05, 97.63%, 49.31%, 1) 10%, hsla(248.05, 97.63%, 49.31%, 0) 80%),
+          -webkit-linear-gradient(135deg, hsla(96.51, 96.79%, 49.27%, 1) 15%, hsla(96.51, 96.79%, 49.27%, 0) 80%),
+          -webkit-linear-gradient(205deg, hsla(7.39, 97.33%, 46.27%, 1) 100%, hsla(7.39, 97.33%, 46.27%, 0) 70%);
+        background:
+          linear-gradient(135deg, hsla(301.25, 90.16%, 49.69%, 1) 0%, hsla(301.25, 90.16%, 49.69%, 0) 70%),
+          linear-gradient(25deg, hsla(248.05, 97.63%, 49.31%, 1) 10%, hsla(248.05, 97.63%, 49.31%, 0) 80%),
+          linear-gradient(315deg, hsla(96.51, 96.79%, 49.27%, 1) 15%, hsla(96.51, 96.79%, 49.27%, 0) 80%),
+          linear-gradient(245deg, hsla(7.39, 97.33%, 46.27%, 1) 100%, hsla(7.39, 97.33%, 46.27%, 0) 70%);
+        
+
+      .hero_title {
+
+
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        padding-top: 5rem;
+        color: #ffffff;
+        font-size: 3.4rem;
+
+    }
+    
+}
 
 
 .code-hero {
@@ -52,8 +111,8 @@ body {
 }
 
 .card_snippet_title {
-
-     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    //  font-family: 'Josefin Sans', sans-serif;
      font-size: 3rem;
      color: $ocean;
 

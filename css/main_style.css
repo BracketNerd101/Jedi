@@ -1,6 +1,7 @@
 /* Coolors Exported Palette - coolors.co/13293d-006494-247ba0-1b98e0-e8f1f2 */
 /* HSL */
 /* RGB */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
 .bg-milk {
   background-color: #f1f1f1;
 }
@@ -33,6 +34,34 @@ body {
   width: inherit;
 }
 
+.css_hero {
+  height: 24rem;
+  width: 100%;
+  background: -webkit-linear-gradient(315deg, #03c4ed 0%, rgba(3, 196, 237, 0) 70%), -webkit-linear-gradient(65deg, #0344e3 10%, rgba(3, 68, 227, 0) 80%), -webkit-linear-gradient(135deg, #b60bdc 15%, rgba(182, 11, 220, 0) 80%), -webkit-linear-gradient(205deg, #d001bb 100%, rgba(208, 1, 187, 0) 70%);
+  background: linear-gradient(135deg, #03c4ed 0%, rgba(3, 196, 237, 0) 70%), linear-gradient(25deg, #0344e3 10%, rgba(3, 68, 227, 0) 80%), linear-gradient(315deg, #b60bdc 15%, rgba(182, 11, 220, 0) 80%), linear-gradient(245deg, #d001bb 100%, rgba(208, 1, 187, 0) 70%);
+}
+.css_hero .hero_title {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding-top: 5rem;
+  color: #ffffff;
+  font-size: 3.4rem;
+}
+
+.java_hero {
+  height: 24rem;
+  width: 100%;
+  background: -webkit-linear-gradient(315deg, #f10cec 0%, rgba(241, 12, 236, 0) 70%), -webkit-linear-gradient(65deg, #2403f9 10%, rgba(36, 3, 249, 0) 80%), -webkit-linear-gradient(135deg, #63f704 15%, rgba(99, 247, 4, 0) 80%), -webkit-linear-gradient(205deg, #e91f03 100%, rgba(233, 31, 3, 0) 70%);
+  background: linear-gradient(135deg, #f10cec 0%, rgba(241, 12, 236, 0) 70%), linear-gradient(25deg, #2403f9 10%, rgba(36, 3, 249, 0) 80%), linear-gradient(315deg, #63f704 15%, rgba(99, 247, 4, 0) 80%), linear-gradient(245deg, #e91f03 100%, rgba(233, 31, 3, 0) 70%);
+}
+.java_hero .hero_title {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding-top: 5rem;
+  color: #ffffff;
+  font-size: 3.4rem;
+}
+
 .code-hero {
   background-image: url("../img/code_banner.jpg");
   background-size: cover;
@@ -52,7 +81,7 @@ body {
 }
 
 .card_snippet_title {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
   color: #006494;
 }
